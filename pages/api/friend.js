@@ -1,7 +1,7 @@
 export default function handler(req, res) {
   const query = req.query;
   const { uid } = query;
-  console.log(uid, ' login');
+  console.log(uid, ' 친구 목록 요청');
 
   connection.query(
     // 'SELECT * FROM molpumta_db.user_info WHERE id = ?',
