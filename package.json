@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 443",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "next": "13.4.9",
+    "nodemon": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.21",
+    "@types/node": "20.4.1",
+    "@types/react": "18.2.14",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.9",
+    "typescript": "5.1.6"
+  }
+}
