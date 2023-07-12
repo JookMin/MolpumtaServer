@@ -3,7 +3,8 @@ CREATE DATABASE molpumta_db;
 USE molpumta_db;
 
 CREATE TABLE user_info (
-	id INT NOT NULL PRIMARY KEY,
+	id BIGINT NOT NULL PRIMARY KEY,
 	username VARCHAR(20),
-	active BOOLEAN DEFAULT FALSE
+	active BOOLEAN DEFAULT FALSE,
+	state INT
 );
